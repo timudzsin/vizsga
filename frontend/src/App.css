@@ -1,0 +1,30 @@
+.App {
+	min-height: 100vh;
+	background-color: hsl(0, 0%, 75%);
+	padding: 14px;
+}
+
+.App-headerBlock {
+	background-color: hsl(0, 0%, 95%);
+	border: 2px solid hsl(0, 0%, 50%);
+	width: 90%;
+	margin: auto;
+	text-align: center;
+	padding: 5px;
+}
+.App-headerBlock > p {
+	color: hsl(0, 0%, 35%);
+}
+
+.App-roomTypeSelectorBlock {
+	display: flex;
+	flex-direction: row;
+	justify-items: center;
+	padding: 8px;
+	gap: 14px;
+}
+.RoomTypeSelector {
+	background-color: hsl(0, 0%, 95%);
+	border: 2px solid hsl(0, 0%, 50%);
+    min-width: 150px;
+}

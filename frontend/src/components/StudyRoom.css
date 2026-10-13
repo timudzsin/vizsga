@@ -1,0 +1,24 @@
+.StudyRoom {
+	background-color: hsl(0, 0%, 95%);
+	border: 2px solid hsl(0, 0%, 50%);
+    width: 250px;
+    min-height: 300px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.StudyRoom > button {
+	background-color: hsl(0, 0%, 20%);
+	border: 2px solid hsl(0, 0%, 10%);
+	color: hsl(0, 0%, 95%);
+    min-height: 32px;
+    border-radius: 6px;
+}
+
+.StudyRoom-line
+{
+    height: 1.5px;
+	background-color: hsl(0, 0%, 50%);
+}
